@@ -47,4 +47,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0206-reverse-linked-list](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
