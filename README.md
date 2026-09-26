@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0125-valid-palindrome) |
+| [0389-find-the-difference](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0389-find-the-difference) |
 ## Array
 |  |
 | ------- |
@@ -32,10 +33,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0018-4sum) |
+| [0389-find-the-difference](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0389-find-the-difference) |
 ## Hash Table
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0202-happy-number) |
+| [0389-find-the-difference](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0389-find-the-difference) |
 ## Math
 |  |
 | ------- |
@@ -57,4 +60,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0643-maximum-average-subarray-i) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0389-find-the-difference](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0389-find-the-difference) |
 <!---LeetCode Topics End-->
