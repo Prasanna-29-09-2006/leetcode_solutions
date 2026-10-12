@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0018-4sum) |
 | [0643-maximum-average-subarray-i](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0643-maximum-average-subarray-i) |
+| [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 ## Greedy
 |  |
 | ------- |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0643-maximum-average-subarray-i) |
+| [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 ## Bit Manipulation
 |  |
 | ------- |
