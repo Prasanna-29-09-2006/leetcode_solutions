@@ -1,23 +1,24 @@
 class Solution {
     public boolean isHappy(int n) {
-        int slow=n,fast=n;
+        Set<Integer> set = new HashSet<>();
         while(true){
-            slow=digit_sq_sum(slow);
-            fast=digit_sq_sum(fast);
-            fast=digit_sq_sum(fast);
-            if(slow == fast ){
-                if(slow==1) return true;
+            int digSum = digSqSum(n);
+            if(digSum == 1) return true;
+            else{
+                if(!set.contains(digSum)) set.add(digSum);
                 else return false;
-            } 
-        }
-        }
-        int digit_sq_sum(int number){
-            int digit=0,sum=0,n1=number;
-            while(n1!=0){
-                digit=n1%10;
-                sum=sum+(digit*digit);
-                n1=n1/10;
             }
-            return sum;
+            n = digSum;
+        }  
+    }
+
+    public int digSqSum(int num){
+        int dig=0,sum=0;
+        while(num!=0){
+            dig =num%10;
+            sum = sum+(dig*dig);
+            num = num/10;
+        }
+        return sum;
     }
 }
