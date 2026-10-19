@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0018-4sum) |
 | [0125-valid-palindrome](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0125-valid-palindrome) |
 | [0202-happy-number](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0202-happy-number) |
+| [0349-intersection-of-two-arrays](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0349-intersection-of-two-arrays) |
 ## String
 |  |
 | ------- |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0018-4sum) |
 | [0217-contains-duplicate](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0217-contains-duplicate) |
+| [0349-intersection-of-two-arrays](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0643-maximum-average-subarray-i](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0643-maximum-average-subarray-i) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1389-create-target-array-in-the-given-order](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/1389-create-target-array-in-the-given-order) |
@@ -38,12 +40,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0018-4sum) |
 | [0217-contains-duplicate](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0217-contains-duplicate) |
+| [0349-intersection-of-two-arrays](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0389-find-the-difference](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0389-find-the-difference) |
 ## Hash Table
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0217-contains-duplicate) |
+| [0349-intersection-of-two-arrays](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0389-find-the-difference](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0389-find-the-difference) |
 ## Math
 |  |
@@ -81,4 +85,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0258-add-digits) |
+## Binary Search
+|  |
+| ------- |
+| [0349-intersection-of-two-arrays](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0349-intersection-of-two-arrays) |
 <!---LeetCode Topics End-->
