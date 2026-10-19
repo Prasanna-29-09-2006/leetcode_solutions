@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0202-happy-number) |
+| [0258-add-digits](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0258-add-digits) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
@@ -74,5 +75,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0258-add-digits) |
 | [1389-create-target-array-in-the-given-order](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/1389-create-target-array-in-the-given-order) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/Prasanna-29-09-2006/leetcode_solutions/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
