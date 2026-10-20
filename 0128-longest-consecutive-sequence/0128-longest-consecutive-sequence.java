@@ -1,40 +1,48 @@
 class Solution {
     public int longestConsecutive(int[] nums) {
-        if(nums.length == 0) return 0;
-        Set<Integer> set = new TreeSet<>();
-        for(int x : nums) set.add(x);
+        Map<Integer,Boolean> map = new HashMap<>();
+        int count=0,maxCount=0;
 
-        int left=0,right=0,i=0,count=1,maxCount=0;
+        for(int x : nums) map.put(x,false);
 
-        for(Integer y : set){
-            if(i==0){
-                left=y;
-                i++;
-            }
-            else if(i==1){
-                right=y;
-                if(right-left == 1) count++;
-                maxCount = count;
-                left=right;
-                i++;
-            }
-            else{
-                right=y;
-                if(right-left == 1){
-                    count++;
-                }
-                else{
-                    if(count>maxCount){
-                        maxCount = count;
+        for(int y : nums){
+            if(map.get(y)==false){
+                map.put(y,true);
+                count++;
+                int temp=0;
+                if(y<Integer.MAX_VALUE){ 
+                     temp = y+1;
+                while(true){
+                    if(map.containsKey(temp)){
+                        map.put(temp,true);
+                        count++;
+                        if(temp<Integer.MAX_VALUE) temp++;
+                        else break;
+                        
                     }
-                    count = 1;
+                    else break;
                 }
-                left=right;
-                i++;
-            }   
+                }
+                if(y>Integer.MIN_VALUE){ 
+                temp=y-1;
+                while(true){
+                    if(map.containsKey(temp)){
+                        map.put(temp,true);
+                        count++;
+                       if(temp>Integer.MIN_VALUE) temp--;
+                       else break;
+                    }
+                    else break;
+                }
+                }
+
+            }
+            if(count>maxCount) maxCount=count; 
+            count = 0;
+        }
+        return maxCount;
+
+
+        
     }
-    if(count>maxCount) maxCount = count;
-                       
-    return maxCount;
-}
 }
