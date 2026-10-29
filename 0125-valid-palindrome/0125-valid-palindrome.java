@@ -1,29 +1,47 @@
 class Solution {
     public boolean isPalindrome(String s) {
-        char[] obj = s.toCharArray();
-        List<Character> list =new ArrayList<>();
-        char ch=' ';
-        int left,right;
-        for(char x:obj){
-            if(x>='A' && x<='Z'){
-                ch=Character.toLowerCase(x);
-                list.add(ch);
-            }
-            else if(x>='a' && x<='z'){
-                list.add(x);
-            }
-            else if(x>='0' && x<='9'){
-                list.add(x);
-            }
-        }
-        left=0;right=list.size()-1;
+        /*
+        this approach uses 2 pointer pattern  T.C : o(n) ; S.C : O(1)
+        and the condition checking(uppercase,lowercase,digit) is done using characters' ASCII  values
+        */
+        int left=0,right=s.length()-1;
         while(left<=right){
-            if(list.get(left)!=list.get(right)){
-                return false;
+            if((s.charAt(left)>=65 &&s.charAt(left)<=90)||(s.charAt(left)>=97 &&s.charAt(left)<=122) ||(s.charAt(left)>='0' &&s.charAt(left)<='9')){
+                if((s.charAt(right)>=65 &&s.charAt(right)<=90)||(s.charAt(right)>=97 &&s.charAt(right)<=122) ||(s.charAt(right)>='0' &&s.charAt(right)<='9')){
+                    if((s.charAt(left)>=65 &&s.charAt(left)<=90) && (s.charAt(right)>=97 &&s.charAt(right)<=122)){
+                        if(((char)(s.charAt(left)+32))==s.charAt(right)){
+                            left++;
+                            right--;
+                        }
+                        else return false;
+                    }
+                    else if((s.charAt(left)>=97 &&s.charAt(left)<=122) && (s.charAt(right)>=65 &&s.charAt(right)<=90)){
+                        if(((char)(s.charAt(right)+32))==s.charAt(left)){
+                            left++;
+                            right--;
+                        }
+                        else return false;
+                    }
+                    else{
+                        if(s.charAt(left)==s.charAt(right)){
+                            left++;
+                            right--;
+                        }
+                        else return false;
+                    }
+
+
+                }
+                else{
+                    right--;
+                }
+                
             }
-            left++;
-            right--;
+            else{
+                left++;
+            }
         }
-        return true; 
+        return true;
+        
     }
 }
